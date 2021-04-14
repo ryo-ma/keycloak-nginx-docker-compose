@@ -1,0 +1,1 @@
+curl http://localhost:8000/auth/realms/${REALM}/protocol/openid-connect/token -d "grant_type=password&client_id=${CLIENT_ID}&client_secret=${CLIENT_SECRET}&username=${KEYCLOAK_USERNAME}&password=${KEYCLOAK_PASSWORD}&scope=openid"
